@@ -269,11 +269,11 @@ module Base
 
 	recipe Make Large Glass Pane
 	{
-		CeramicCrucibleWithGlass=3,
+		CeramicCrucibleWithGlass=5,
 		keep aerx.ClaySheetMold,
 		Result:RepairableWindows.GlassPane,
 
-		SkillRequired:Woodwork=5,
+		SkillRequired:Woodwork=3,
 		CanBeDoneFromFloor      : TRUE,
 		Time:400,
 		Category:Glassmaking,
