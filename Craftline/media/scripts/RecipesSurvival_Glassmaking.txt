@@ -1,6 +1,8 @@
 module Base
 {
 
+	-- Base Production
+
 	recipe Melt Sand
 	{
 		CeramicCrucibleSmall,
@@ -31,6 +33,8 @@ module Base
 		Time:10,
 		Category:Glassmaking,
 	}
+
+	--Car Parts
 
 	recipe Make Standard Windshield
 	{
@@ -188,7 +192,7 @@ module Base
 	}
 
 
-
+	-- Glass Containers
 
 	recipe Make Glass Jar
 	{
@@ -250,11 +254,24 @@ module Base
 		Category:Glassmaking,
 	}
 
+	--Construction Glass
+
 	recipe Make Glass Pane
 	{
 		CeramicCrucibleWithGlass,
 		keep aerx.ClaySheetMold,
 		Result:base.GlassPane,
+
+		CanBeDoneFromFloor      : TRUE,
+		Time:400,
+		Category:Glassmaking,
+	}
+
+	recipe Make Window Glass
+	{
+		CeramicCrucibleWithGlass,
+		keep aerx.ClaySheetMold,
+		Result:RepairableWindows.GlassPane,
 
 		CanBeDoneFromFloor      : TRUE,
 		Time:400,
