@@ -269,7 +269,7 @@ module Base
 
 	recipe Make Large Glass Pane
 	{
-		CeramicCrucibleWithGlass=5,
+		CeramicCrucibleWithGlass=3,
 		keep aerx.ClaySheetMold,
 		Result:RepairableWindows.GlassPane,
 
