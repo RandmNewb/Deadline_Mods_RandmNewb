@@ -269,7 +269,7 @@ module Base
 
 	recipe Make Window Glass
 	{
-		CeramicCrucibleWithGlass,
+		CeramicCrucibleWithGlass;1,
 		keep aerx.ClaySheetMold,
 		Result:RepairableWindows.GlassPane,
 
